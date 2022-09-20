@@ -13,34 +13,55 @@
             position: fixed;
             display: block;
             text-align: center;
-            left: 25%;
-               
+            left: 25%;           
         }
-        a{
-            color: white;
+        .a li a{
+            padding: 5px 10px; 
+            margin:0;
+            text-decoration: none;
+            color:#FFF;
+            -webkit-border-radius:5px;
+            -moz-border-radius:5px;
+            border-radius:5px;
+            margin-top: -1vw;
+        }
+        .a li {
+            list-style: none; 
+            display: inline;
+            margin-left: -1.7vw;
+            margin-top: 1.6vh;
         }
         ul {
-            position:relative;
-            color: white;
-            margin-top: 50%;
-            margin-inline: 0;
-            text-decoration: none;
-            margin: 0;
-            padding: 0;  
-            display: block;          
+        
+            display: inline-flex;
+            padding:0;
+            margin: -0.4vw;
+            position: absolute;  
         }
-        .li {
-            margin-top: 40%;
+        .ba{
+            color: white;
+        }
+        .c {
+            text-decoration: none;
+            display: block;
+            color: white;
+            margin: 0;
+            position: relative;
         }
     </style>
 </head>
 <body >
     <div>
-        <ul>
-            <li class="li">Voltar: <a href="index.html" target="_blank">Index</a>  
-            <li>Contato: <a href="https://github.com/SamuelLucasVieira" target="_blank">GitHub</a></li>
-            <li>Página Favorita: <a href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+        <ul class="a">
+            <li><a href="index.html">Index</a></li>
         </ul>
+    
+        <ul class="c">
+            <li class="c" style="margin-top: 40%;">Voltar: <a class="ba" href="index.html" target="_blank">Index</a>    
+            <li class="c">Contato: <a class="ba" href="https://github.com/SamuelLucasVieira" target="_blank">GitHub</a></li>
+            <li class="c">Página Favorita: <a class="ba" href="https://www.w3schools.com/" target="_blank">w3schools</a></li>
+        </ul>
+       
     </div>   
     
 </body>
